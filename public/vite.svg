@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="cone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5c542"/>
+      <stop offset="100%" stop-color="#d4952a"/>
+    </linearGradient>
+    <linearGradient id="scoop1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff9a9e"/>
+      <stop offset="100%" stop-color="#fad0c4"/>
+    </linearGradient>
+    <linearGradient id="scoop2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a18cd1"/>
+      <stop offset="100%" stop-color="#fbc2eb"/>
+    </linearGradient>
+  </defs>
+  <polygon points="22,32 42,32 34,60 30,60" fill="url(#cone)" />
+  <line x1="24" y1="36" x2="40" y2="36" stroke="#c98520" stroke-width="0.8"/>
+  <line x1="26" y1="40" x2="38" y2="40" stroke="#c98520" stroke-width="0.8"/>
+  <line x1="28" y1="44" x2="36" y2="44" stroke="#c98520" stroke-width="0.8"/>
+  <circle cx="28" cy="24" r="12" fill="url(#scoop1)" />
+  <circle cx="38" cy="22" r="10" fill="url(#scoop2)" />
+  <circle cx="30" cy="14" r="8" fill="#b5e8cc" />
+  <circle cx="26" cy="20" r="1.5" fill="#8B4513" opacity="0.7"/>
+  <circle cx="32" cy="22" r="1" fill="#8B4513" opacity="0.5"/>
+  <circle cx="36" cy="18" r="1.2" fill="#ff6b6b" opacity="0.6"/>
+</svg>
